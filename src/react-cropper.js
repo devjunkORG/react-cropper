@@ -237,12 +237,12 @@ class ReactCropper extends Component {
 
     return (
       <div
-        {...this.props}
         src={null}
         crossOrigin={null}
         alt={null}
       >
         <img
+          {...this.props}
           crossOrigin={crossOrigin}
           ref="img"
           src={src}
